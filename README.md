@@ -1,2 +1,2 @@
-# that-herbivore
-A blog about vegetarianism with restaurant reviews
+# i-herbivore
+A blog about vegetarianism and international cuisine, complete with restaurant reviews
