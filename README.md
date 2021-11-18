@@ -10,10 +10,10 @@ Please also report problems and bugs in GitHub Issues.
 
 ##Future Plans for Feature Enhancement
 Here are some features that I plan to add in the future. If you wish to contribute, please email me to discuss the design before submitting pull requests.
-A public "Comments" section
-SlideShare
-Qzzr
-Embedded videos
+*A public "Comments" section
+*SlideShare
+*Qzzr
+*Embedded videos
 
 ##Policy for Open Source Contribution
 I welcome and appreciate contributions in fixing bugs and enhancing features. Please submit pull requests (PRs) that DO NOT modify the site's existing design unless first discussed with me, the author. Please also only submit PRs that are related to bug fixes or feature enhancements. Editing text in the README file is discouraged, and PRs with unnecessary editing (e.g., adding unrelated text, changing the design of the web page, modifying the README text arbitrarily) will highly likely be marked as "spam" and "invalid."
