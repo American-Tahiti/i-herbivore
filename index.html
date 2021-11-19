@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" http-equiv="content-type"
-    content="width=device-width, initial-scale=1.0,maximum-scale=1.0" />
-    <meta charset="utf-8" />
-<meta name="author" content="I, Herbivore">
-<meta name="description" content="Final Code Louisville coding project">
-<title> I, Herbivore </title>
-
-<!--Favicon-->
-<link type="text/css" href="style.css" rel="stylesheet">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="author" content="I, Herbivore">
+  <meta name="description" content="Final Code Louisville coding project">
   
-<header id="mainheader">
-    <link rel="shortcut icon" type="image/x-icon" href="blackglyph.jpg" />
-    <nav>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="img/jpeg" href="favicon.ico">
+    <title> I, Herbivore </title>
+  </head>
 
-<!--Main navigation-->                
+<body>
+  <!--Main navigation-->  
+  <header id="mainheader">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+  <nav>
+    <!--<ul>-->
+      <li> <a href="#home" class="navlinks">HOME</a></li>
+      <li><a href="#blogposts">BLOGPOSTS</a></li>
+      <li><a href="#recipes">RECIPES</a></li>
+      <li><a href="#shop">SHOP</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    <!--</ul>-->
+  </nav>
+  </header>
+  <div style="width:1000px; margin-left: auto; margin-right: auto;">
+    <form role="search" action="/search" method="get" accept-charset="UTF-8">
+      <input-type="search" class="searchbox" placeholder="Search..." autocomplete="off" />
+          <button class="crayons-btn crayons-btn--ghost crayons-btn--s crayons-btn--icon-rounded absolute right-2 bottom-0 top-0 m-1" aria-label="Search" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" class="crayons-icon" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24"><title>Search</title>
+  <path d="M 18.031 16.617 l 4.283 4.282 l -1.415 1.415 l -4.282 -4.283 A 8.96 8.96 0 0 1 11 20 c -4.968 0 -9 -4.032 -9 -9 s 4.032 -9 9 -9 s 9 4.032 9 9 a 8.96 8.96 0 0 1 -1.969 5.617 Z m -2.006 -0.742 A 6.977 6.977 0 0 0 18 11 c 0 -3.868 -3.133 -7 -7 -7 c -3.868 0 -7 3.132 -7 7 c 0 3.867 3.132 7 7 7 a 6.977 6.977 0 0 0 4.875 -1.975 l 0.15 -0.15 Z" />
+</svg>
+          </button>
+    </form>
+</div>
+<h2>FEATURED BLOG POST</h2>
+<article>
+  <h3>Tao of Herbivores</h3>
+  <a href="#"><img src="img/pexels-fuzzy-rescue-3669638.jpg" alt="Photo by Fuzzy Rescue from Pexels"</a>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</article>
+<!--LOGO-->
+<section class="logo">
+  <link rel="icon" type="image/png" href="img/logo.png">
+</section>
+  
+    <!--HERO-->
+    <section class="hero">
+<a href="img/pexels-ella-olsson-1640777.jpg"></a>
 
-    <ul>
-    <li><a href="/index.html" class="navlinks">HOME</a></li>
-    <li><a href="#">ABOUT</a></li>
-    <li><a href="#">RECIPES</a></li>
-    <li><a href="#">SHOP</a></li>  
-    <li><a href="#">CONTACT</a></li> 
-</ul>
-        </nav>
-    </header>
+  </section>
+  
+  <section class="disclaim">
     <p>The content and information in this website is for informational and educational purposes only, not as medical advice, and it is not intended as a substitution for professional medical advice. We encourage our readers to consult with a qualified physician before beginning or discontinuing use of any prescription drug or enacting any form of self-treatment. Information provided here is designed to help the reader make informed decisions about diet and health. It is not intended as a substitute for any treatment prescribed or recommended by your doctor. If you are being treated for any health condition, please check with your doctor before trying any home remedies. If you are taking any prescription drug, please consult with your doctor before taking any herb, mineral, vitamin or other supplement. If you suspect that you have some medical condition, please seek competent professional medical advice. I, Herbivore bloggers, publishers, and representatives disclaim liability for any unfavorable effects resulting directly or indirectly from articles and materials contained on this website or in any product sold or purchased through this website.</p>
-        <div style="width:1000px;margin-left; auto; margin-right: auto;"></div>
+    </section>
+
+    <div style="width:1000px;margin-left; auto; margin-right: auto;"></div>
 <footer class="footer">
         <p>&copy; I, Herbivore MMXXI - All rights reserved</p>
     </footer>
+    </div>
     </body>
 </html>
